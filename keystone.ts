@@ -13,7 +13,7 @@ export default withAuth(
       maxFileSize: mainConfig.maxFileSize,
     },
     db: {
-      provider: 'sqlite',
+      provider: 'postgresql',
       url: mainConfig.dbUrl,
       async onConnect(context) {
         if (process.argv.includes('--import-mongo-json')) {
