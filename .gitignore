@@ -5,6 +5,5 @@ keystone.db
 *.db
 *.db-journal
 .env
-public/images
 .DS_Store
 import_data
